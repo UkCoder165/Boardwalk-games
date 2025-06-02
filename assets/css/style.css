@@ -25,7 +25,17 @@ h3 {
 }
 
 .sub-heading-color {
-    color: var:(--highlight-color);
+    color: var(--highlight-color);
+}
+
+/* navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
 }
 
 /* grid visualisation css for testing */
